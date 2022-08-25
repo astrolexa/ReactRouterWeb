@@ -1,0 +1,43 @@
+.titleTour{
+  display: block;
+  margin-top: 50px;
+  font-weight: bold;
+}
+img {
+  max-width: calc(80vh);
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgb(209, 209, 209), 0px -5px 5px rgb(193, 193, 193);
+  margin-bottom: 20px;
+}
+.contentBox{
+  margin: 0px 150px auto;  
+  color: rgb(0, 0, 0);  
+  background-color: white;  
+  border-radius: 30px;
+  box-shadow: 0px 5px 5px rgb(209, 209, 209), 0px -5px 5px rgb(193, 193, 193);
+  opacity: 0.8;  
+  margin-bottom: 20px;
+}
+.content {  
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: calc(8px + 2vmin);
+  color: rgb(0, 0, 0);
+  text-decoration: none;  
+  line-height: 44px;
+}
+
+.btn{
+  background-color: rgb(255, 184, 184);
+  color : rgb(0, 0, 0);
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.btn:hover{
+  background-color: black;
+  color : white;
+  margin-bottom: 20px;
+}

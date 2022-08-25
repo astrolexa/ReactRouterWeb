@@ -1,0 +1,239 @@
+.App {
+  text-align: center;
+}
+#site-header {
+  position:sticky;
+  top:0;
+}
+.header{
+  position:sticky;
+  top: 0;
+  bottom: auto;
+  background-color: rgb(0, 0, 0);  
+  color: white;
+  width: 100%;
+  height: 75px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-decoration: none;
+  z-index:100;
+  box-shadow: 0px 5px 5px rgb(126, 126, 126), 0px -5px 5px rgb(92, 92, 92);
+}
+.navBox{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 150px;
+}
+.nav {
+  display: block;
+  font-size: calc(8px + 2vmin);
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.outer{
+  position: relative;
+}
+.footer{
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);  
+  height: 100px;
+  font-size: 12px;  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.footerTxt_1{
+  position: relative;
+  margin-top: -40px;
+  padding-left: 10px;  
+  padding-right: 10px;
+  color: white;
+  height: 10px;
+  font-size: 16px;
+}
+.footerTxt_2{  
+  position: relative;
+  margin-top: -5px;
+  padding-left: 8px;  
+  padding-right: 10px;
+  color: white;
+  height: 10px;
+  font-size: 12px;
+}
+.header:hover{
+  color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.blockBox{  
+  width: 1000px;
+}
+.blockquotef{
+  font-size: 100px;
+  margin-bottom: -80px;
+}
+.blockquoteb{
+  font-size: 100px;
+  margin-bottom: -80px;
+}
+.blockFooter{
+  font-size: 18px;
+  margin-top: 60px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bg{
+  position:sticky;
+  top: 0;
+  z-index:-100;
+  height: 100vh;
+  width: 100%;
+  background-size:cover;
+  background-position: 0px -100px;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-color: antiquewhite;
+  background-image:url("https://github.com/astrolexa/img/blob/master/elsatse88.blogspot-1.jpg?raw=true");
+}
+
+.title{
+  font-size: 48px;
+  padding-top: 100px;
+  padding-left: 150px;
+  text-align: left;
+  letter-spacing: 0.2em;
+}
+p{
+  font-size: 24px;  
+  padding-top: 15px;
+  padding-left: 150px;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+#MyBlog_1{
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  top: 50%;  /*設置垂直位置*/
+  right: -40px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #000000;  /*背景顏色*/
+  padding: 11px 20px;
+  border-radius: 40px;  /*圓角*/
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  margin-top: -60px;
+  box-shadow: 0px 3px 3px rgb(190, 190, 190), 0px -3px 3px rgb(187, 187, 187);
+}
+#MyBlog_2{
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  top: 50%;  /*設置垂直位置*/
+  right: -80px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #000000;  /*背景顏色*/
+  padding: 11px 20px;
+  border-radius: 40px;  /*圓角*/
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  margin-top: 0px;
+  box-shadow: 0px 3px 3px rgb(190, 190, 190), 0px -3px 3px rgb(187, 187, 187);
+}
+#MyBlog_3{
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  top: 50%;  /*設置垂直位置*/
+  right: -60px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #000000;  /*背景顏色*/
+  padding: 11px 20px;
+  border-radius: 40px;  /*圓角*/
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  margin-top: 60px;
+  box-shadow: 0px 3px 3px rgb(190, 190, 190), 0px -3px 3px rgb(187, 187, 187);
+}
+#MyBlog_4{
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+  top: 50%;  /*設置垂直位置*/
+  right: -60px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  background: #ffffff;  /*背景顏色*/
+  padding: 11px 20px;
+  border-radius: 40px;  /*圓角*/
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  margin-top: 120px;
+  box-shadow: 0px 3px 3px rgb(190, 190, 190), 0px -3px 3px rgb(187, 187, 187);
+}
+#MyBlog_1:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+}
+#MyBlog_2:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+}
+#MyBlog_3:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+}
+#MyBlog_4:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+  right: -10px;
+}
+#MyBlog_1 #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+#MyBlog_2 #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+#MyBlog_3 #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}
+#MyBlog_4 #title{
+  padding-right: 5px;  /*讓標題與連結中間有空隙*/
+}

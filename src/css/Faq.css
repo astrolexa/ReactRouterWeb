@@ -1,0 +1,38 @@
+.accordion{
+    color:black;
+}
+.accordion-button{
+    color:black;
+    background: rgb(255, 255, 255);
+}
+
+.button.accordion-button{
+    color:black;
+    background: rgb(255, 255, 255);
+}
+.faqBg{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100vh;
+    padding-top: 50px;
+    overflow:auto;
+    background-size:cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-image:url("https://github.com/astrolexa/img/blob/master/elsatse88.blogspot-1.jpg?raw=true");
+}
+.titleFaq{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.accordion{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    opacity: 0.8;
+    border-color: black;
+}
+.accordion-item{
+    margin: 0 auto;
+    margin-top: 30px;
+}

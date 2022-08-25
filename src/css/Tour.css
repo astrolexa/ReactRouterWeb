@@ -1,0 +1,9 @@
+.Tourwrap{
+    height: 100vh;
+    overflow:auto;
+    background-size:cover;
+    background-position: 0px -100px;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-image:url("https://github.com/astrolexa/img/blob/master/elsatse88.blogspot-1.jpg?raw=true");
+}

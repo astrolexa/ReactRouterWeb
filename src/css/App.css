@@ -40,7 +40,7 @@
 }
 @media(max-width: 576px){
   .navBox{
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
   }
 }
@@ -274,7 +274,7 @@ body::-webkit-scrollbar {
   height: 50px;
   position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
   top: 50%;  /*設置垂直位置*/
-  right: -60px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+  right: -160px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
   background: #ffffff;  /*背景顏色*/
   padding: 11px 20px;
   border-radius: 40px;  /*圓角*/

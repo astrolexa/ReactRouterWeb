@@ -35,6 +35,12 @@
     background-attachment: fixed;
     background-image:url("https://github.com/astrolexa/img/blob/master/elsatse88.blogspot-1.jpg?raw=true");
 }
+@media(max-width: 576px){
+    .faqBg{
+        padding-left: 10%;
+        padding-right: 10%; 
+    } 
+}
 .titleFaq{
     margin-top: 20px;
     margin-bottom: 50px;

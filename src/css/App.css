@@ -32,6 +32,18 @@
   justify-content: space-between;
   margin-left: 150px;
 }
+@media(max-width: 1200px){
+  .navBox{
+    width: 400px;
+    margin-left: 50px;
+  }
+}
+@media(max-width: 576px){
+  .navBox{
+    width: 400px;
+    margin: 0 auto;
+  }
+}
 .nav {
   display: block;
   font-size: calc(8px + 2vmin);
@@ -55,20 +67,18 @@
 .footerTxt_1{
   position: relative;
   margin-top: -40px;
-  padding-left: 10px;  
-  padding-right: 10px;
   color: white;
   height: 10px;
   font-size: 16px;
+  margin-left: -10px;
 }
 .footerTxt_2{  
   position: relative;
   margin-top: -5px;
-  padding-left: 8px;  
-  padding-right: 10px;
   color: white;
   height: 10px;
-  font-size: 12px;
+  font-size: 12px;  
+  margin-left: -10px;
 }
 .header:hover{
   color: black;
@@ -76,21 +86,6 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-.blockBox{  
-  width: 1000px;
-}
-.blockquotef{
-  font-size: 100px;
-  margin-bottom: -80px;
-}
-.blockquoteb{
-  font-size: 100px;
-  margin-bottom: -80px;
-}
-.blockFooter{
-  font-size: 18px;
-  margin-top: 60px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -111,25 +106,93 @@
 }
 
 .bg{
-  position:sticky;
-  top: 0;
   z-index:-100;
   height: 100vh;
   width: 100%;
+  overflow:auto;
   background-size:cover;
-  background-position: 0px -100px;
   background-repeat: no-repeat; 
   background-attachment: fixed;
   background-color: antiquewhite;
   background-image:url("https://github.com/astrolexa/img/blob/master/elsatse88.blogspot-1.jpg?raw=true");
 }
+.blockBox{  
+  max-width: 1000px;
+}
 
+.blockquotef{
+  display:block;
+  max-width: 1000px;
+  font-size: 100px;
+  margin-bottom: -80px;
+}
+@media (max-width: 1200px){
+  .blockquotef{
+    max-width: 600px;
+    font-size: 80px;
+    line-height: 150px;
+  }
+}
+@media (max-width: 576px){
+  .blockquotef{
+    max-width: 300px;
+    font-size: 60px;
+    line-height: 140px;
+  }
+}
+.blockquoteb{  
+  display:block;
+  font-size: 100px;
+  margin-bottom: -80px;
+}
+@media (max-width: 1200px){
+  .blockquoteb{
+    max-width: 600px;
+    font-size: 80px;
+    line-height: 150px;
+  }
+}
+@media (max-width: 576px){
+  .blockquoteb{
+    max-width: 300px;
+    font-size: 60px;
+    line-height: 140px;
+  }
+}
+.blockFooter{  
+  display:block;
+  font-size: 18px;
+  margin-top: 60px;
+}
+@media (max-width: 1200px){
+  .blockFooter{  
+    font-size: 18px;
+    margin-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 .title{
-  font-size: 48px;
+  font-size: 48px;  
+  font-weight: bold;
   padding-top: 100px;
   padding-left: 150px;
   text-align: left;
   letter-spacing: 0.2em;
+}
+@media (max-width: 1200px){
+  .title{
+    font-size: 48px;
+    padding-left: 50px;    
+    padding-right: 150px;
+  }
+}
+@media (max-width: 576px){
+  .title{
+    font-size: 38px;
+    padding-left: 50px;    
+    padding-right: 50px;
+  }
 }
 p{
   font-size: 24px;  
@@ -137,6 +200,13 @@ p{
   padding-left: 150px;
   text-align: left;
   letter-spacing: 0.1em;
+}
+@media (max-width: 1200px){
+  p{
+    font-size: 24px;  
+    padding-left: 50px;    
+    padding-right: 50px;
+  }
 }
 .App-link {
   color: #61dafb;

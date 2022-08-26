@@ -4,7 +4,7 @@ import FAQ from './components/FAQ.js';
 import Tour from './components/Tour.js';
 import TourDetail from './components/TourDetail.js';
 import TourList from './components/TourList.js';
-import { Routes, Route, Link,Outlet } from "react-router-dom";
+import { Routes, Route, Link,Outlet } from 'react-router-dom';
 import { enable, disable, isEnabled } from 'cursor-flashlight';
 enable({ size: '15vmax' });
 
@@ -27,7 +27,6 @@ function Home() {
   );
 }
 function Layout() {
-
   return (
     <>
       <div className="header"> 

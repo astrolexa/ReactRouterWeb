@@ -4,17 +4,31 @@
 .accordion-button{
     color:black;
     background: rgb(255, 255, 255);
+    font-size: calc(7px + 2vmin);
 }
-
+@media(max-width: 576px){
+    .accordion-button{        
+        font-size: calc(12px + 2vmin);
+    }
+}
+.accordion-collapse{
+    font-size: calc(5px + 2vmin);
+}
+@media(max-width: 576px){
+    .accordion-collapse{
+        font-size: calc(10px + 2vmin);
+    }
+}
 .button.accordion-button{
     color:black;
     background: rgb(255, 255, 255);
 }
 .faqBg{
-    padding-left: 100px;
-    padding-right: 100px;
     height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;    
     padding-top: 50px;
+    padding-bottom: 50px;
     overflow:auto;
     background-size:cover;
     background-repeat: no-repeat; 

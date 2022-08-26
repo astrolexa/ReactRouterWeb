@@ -18,18 +18,51 @@ img {
   opacity: 0.8;  
   margin-bottom: 20px;
 }
+@media(max-width: 1200px){
+  .contentBox{
+    margin: 0px 80px auto;  
+    margin-bottom: 20px;
+  }
+}
+@media(max-width: 576px){
+  .contentBox{
+    margin: 0px 40px auto;  
+    margin-bottom: 20px;
+  }
+}
 .content {  
   margin: 0 auto;
   margin-top: 20px;
-  margin-right: 100px;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-right: 10%;
   font-size: calc(8px + 2vmin);
   color: rgb(0, 0, 0);
   text-decoration: none;  
   line-height: 44px;
 }
-
+@media(max-width: 1200px){
+  .content {  
+    padding-left: 10%;    
+    padding-right: 10%;
+  }
+}
+@media(max-width: 576px){
+  .content {  
+    padding-left: 10%;    
+    padding-right: 10%;
+    font-size: calc(12px + 2vmin);     
+    line-height: 42px;
+  }
+}
+img{
+  max-width: 800px;
+}
+@media(max-width: 576px){
+  img{
+    max-width: 500px;
+  }
+}
 .btn{
   background-color: rgb(255, 184, 184);
   color : rgb(0, 0, 0);

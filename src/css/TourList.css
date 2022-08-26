@@ -91,6 +91,12 @@ overflow: auto;
     padding-left: 100px;
     padding-right: 100px;
   }
+  @media(max-width: 1200px){
+    .auto-grid {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  }
   
   .flow > * + * {
     margin-top: var(--flow-space, 1em);

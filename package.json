@@ -9,6 +9,7 @@
     "bootstrap": "^5.2.0",
     "cursor-flashlight": "^1.0.1",
     "gh-pages": "^4.0.0",
+    "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",

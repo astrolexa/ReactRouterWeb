@@ -28,7 +28,7 @@ function TourDetail() {
             <h2 className="titleTour">{Name}</h2>  
             <br />
             <img src={Picture1} alt={Name} />
-          <div className="contentBox">            
+          <div className="contentBox"> 
             <p className="content">{Toldescribe}</p>    
             <input type="button" className="btn" value="回列表" onClick={()=>{
                 navigate(`/tour/`)

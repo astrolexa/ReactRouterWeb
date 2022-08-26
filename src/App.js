@@ -7,6 +7,7 @@ import TourList from './components/TourList.js';
 import { Routes, Route, Link,Outlet } from "react-router-dom";
 import { enable, disable, isEnabled } from 'cursor-flashlight';
 enable({ size: '15vmax' });
+
 function Home() {  
   return (
     <>
